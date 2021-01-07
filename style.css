@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+h1 {
+    padding: 50px 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .player {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+} */
+
+/* .username {
+    text-shadow: burlywood;
+    font-size: 50px;
+    padding: 0px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+} */
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+}
+
+/* input {
+    padding: 20px 40px;
+    font-size: 25px;
+    text-align: center;
+
+} */
+
+h2, h3, footer {
+ text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#rock::after {
+    content: "PIEDRA";
+    text-align: center;
+}
+#paper::after {
+    content: "PAPEL";
+    text-align: center;
+}
+#scissors::after {
+    content: "TIJERAS";
+    text-align: center;
+}
+#lizard::after {
+    content: "LAGARTO";
+    text-align: center;
+}
+#spock::after {
+    content: "SPOCK";
+    text-align: center;
+}
+
+.result {
+    padding: 24px;
+    margin: 24px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#whatHappened {
+    font-size: 50px;
+}
+
+#chosenCards {
+    background-color: black;
+    color:white;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#whatHappened {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+
+}
+
+#result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+    padding: 10px;
+    margin: 30px 0px;
+}
