@@ -1,17 +1,17 @@
-# LizardSpock
+# :lizard: LizardSpock
 Kata piedra papel tijeras lagarto spock.
 
 ## Elaborado por:
--[Laura Rodriguez]
+<b>Laura Rodriguez</b> :pig_nose:
 
 ## Lenguajes utilizados
 
--HTML
--CSS
--JavaScript
+- HTML.
+- CSS.
+- JavaScript.
 
 ## Lo que contiene
 
-una pagina basica de HTML que contiene las imagenes de las tarjetas del juego.
-una pagina de estilo en CSS para darle un formato simple, minimalista y sobrio de la web.
-una pagina de comportamiento en JavaScript con una funcionalidad de la logica del juego, una seleccion del jugador y una seleccion aleatoria del ordenador.
+Landing de HTML que contiene las imagenes de las tarjetas del juego.<br>
+Estilo en CSS para darle un formato simple, minimalista y sobrio.<br>
+Comportamiento en JavaScript con la logica del juego, una seleccion con click del jugador y una seleccion aleatoria del ordenador.<br>
